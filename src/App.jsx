@@ -1,10 +1,10 @@
-import { BotaoFavorito } from "./components/BotaoInterativo"
+import BuscadorPaisEPrevisao from "./components/BuscadorPaisEPrevisao"
 
 function App() {
 
   return (
-    <div className="w-screen min-h-screen flex items-center justify-center bg-gray-700">
-    <BotaoFavorito />
+    <div className="w-screen min-h-screen flex items-center justify-center">
+    <BuscadorPaisEPrevisao />
     </div>
   )
 }
